@@ -6,8 +6,20 @@ namespace PadawansTask3
     {
         public static int Gcd(int a, int b)
         {
-            // put your code here
-            throw new NotImplementedException();
+            while (a != b)
+            {
+                if (a > b)
+                {
+                    a = a - b;
+                }
+
+                if (b > a)
+                {
+                    b = b - a;
+                }
+            }
+
+            return (int)a;
         }
     }
 }
