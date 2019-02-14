@@ -19,7 +19,8 @@ namespace PadawansTask3
                 }
             }
 
-            return (int)a;
+            return (i
+            nt)a;
 
             //throw new NotImplementedException();
         }
