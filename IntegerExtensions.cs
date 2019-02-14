@@ -21,8 +21,7 @@ namespace PadawansTask3
 
             ////return (int)a;
 
-            throw new N
-            otImplementedException();
+            throw new NotImplementedException();
         }
     }
 }
